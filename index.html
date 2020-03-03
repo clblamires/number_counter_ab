@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jersey Number Calculator</h1>
+    </header>
+
+    <div class="page">
+        <p>
+            <small>Assuming the jersey numbers start at 1 and are sequential, enter the highest number for the jerseys. This app will calculate the total number of digits that should be ordered.</small>
+        </p>
+        <div>
+            <label>Total Shirts</label>
+            <input type="number" id="total_shirts">
+        </div>
+        <div>
+            <button id="calculate">Calculate</button>
+            <button id="reset">Reset</button>
+        </div>
+  
+        <div>
+            <label>Ones</label><input type="number" id="ones" disabled value="0">
+        </div>
+        <div>
+            <label>Twos</label><input type="number" id="twos" disabled value="0">
+        </div>
+        <div>
+            <label>Threes</label><input type="number" id="threes" disabled value="0">
+        </div>
+        <div>
+            <label>Fours</label><input type="number" id="fours" disabled value="0">
+        </div>
+        <div>
+            <label>Fives</label><input type="number" id="fives" disabled value="0">
+        </div>
+        <div>
+            <label>Sixes</label><input type="number" id="sixes" disabled value="0">
+        </div>
+        <div>
+            <label>Sevens</label><input type="number" id="sevens" disabled value="0">
+        </div>
+        <div>
+            <label>Eights</label><input type="number" id="eights" disabled value="0">
+        </div>
+        <div>
+            <label>Nines</label><input type="number" id="nines" disabled value="0">
+        </div>
+        <div>
+            <label>Zeroes</label><input type="number" id="zeroes" disabled value="0">
+        </div>
+
+        <p>
+            <small>Example: If you need ten jerseys numbered 1 through 10, this app will calculate that you need 2 ones and 1 of each other digit. </small>
+        </p>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
